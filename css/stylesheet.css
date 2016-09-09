@@ -1,10 +1,37 @@
 * {
-  font-family: 'Dosis', sans-serif;
-  color: #1759A0;
+  /*font-family: 'Dosis', sans-serif;*/
+  font-family: 'Montserrat Alternatives', sans-serif;
+}
+
+@media(min-width: 768px) {
+  .navbar {
+    padding: 25px 0;
+  }
+}
+
+@media(max-width: 767px) {
+  .navbar {
+    padding: 0;
+  }
 }
 
 .navbar {
+  background-color: #1A1423;
   margin-bottom: 0px;
+}
+
+.navbar #menuIcon {
+  padding: 3px;
+}
+
+.navbar button:hover,
+.navbar button:focus,
+.navbar button:active {
+  color: white;
+}
+
+.navbar-nav {
+  margin: 0px;
 }
 
 .row {
@@ -28,6 +55,29 @@ img {
   margin: 20px;
 }
 
+#aboutme .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#aboutme {
+  background-color: #104547;
+  color: white;
+}
+
+#aboutme h1 {
+  font-weight: bold;
+  font-size: 3em;
+}
+
+#aboutme p {
+  font-size: 1em;
+}
+
+#aboutme a {
+  font-size: 1em;
+}
+
 .project-img {
   border-width: 2px;
 
@@ -36,15 +86,5 @@ img {
 }
 
 .project-row:hover {
-  background-color: #FFFFFF;
-}
-
-.navbar-nav {
-  margin: 0px;
-}
-
-.vcenter {
-  float: none;
-  display: inline-block;
-  vertical-align: middle;
+  background-color: #EAEAEA;
 }

@@ -1,5 +1,3 @@
-// Responsive Scrolling Page based on tutorial by Ali Jafarian
-// http://alijafarian.com/responsive-page-scrolling-with-jquery-and-bootstrap/
 $(document).ready(function() {
   $('.scroll-link').on('click', function(event) {
     event.preventDefault();
@@ -25,7 +23,7 @@ function setSectionHeights() {
 
   $('.page-section').each(function (i) {
     if ($(this).height() < windowH) {
-      $(this).css({height: windowH});
+      // $(this).css({height: windowH});
     }
   });
 }
