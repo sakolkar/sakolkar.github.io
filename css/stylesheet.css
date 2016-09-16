@@ -1,27 +1,58 @@
-* {
-  /*font-family: 'Dosis', sans-serif;*/
-  font-family: 'Montserrat Alternatives', sans-serif;
+body {
+  font-family: 'Dosis', sans-serif;
+  /*font-family: 'Montserrat Alternatives', sans-serif;*/
 }
 
-@media(min-width: 768px) {
-  .navbar {
-    padding: 25px 0;
-  }
+p {
+  font-size: 20px;
 }
 
-@media(max-width: 767px) {
-  .navbar {
-    padding: 0;
-  }
+p.small {
+  font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+hr {
+  max-width: 250px;
+  border-top: solid 5px;
+  border-color: black;
+}
+
+.img-centered {
+  margin: 0 auto;
 }
 
 .navbar {
   background-color: #1A1423;
+  text-transform: uppercase;
+  font-weight: 700;
   margin-bottom: 0px;
+  border: none;
 }
 
-.navbar #menuIcon {
-  padding: 3px;
+.navbar a:focus {
+  /*outline: none;*/
+}
+
+.navbar .navbar-brand {
+  font-size: 20px;
+  color: white;
+}
+
+.navbar .navbar-brand:hover {
+  color: #18BC9C;
 }
 
 .navbar button:hover,
@@ -30,29 +61,94 @@
   color: white;
 }
 
+.navbar .navbar-nav {
+  letter-spacing: 1px;
+}
+
+.navbar .navbar-nav li a {
+  color: white;
+  border-bottom: solid;
+  border-color: white;
+  border-width: 5px;
+  margin-left: 3px;
+}
+
+.navbar .navbar-nav li a:hover {
+  color: #18BC9C;
+  outline: none;
+}
+
+.navbar .navbar-nav li.active a:hover,
+.navbar .navbar-nav li.active a:focus,
+.navbar .navbar-nav li.active a:active {
+  border-color: #18BC9C;
+}
+
+.navbar .navbar-toggle {
+  color: white;
+  border-color: white;
+}
+
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+  color: white;
+  background-color: #18BC9C;
+  border-color: #18BC9C;
+}
+
+.navbar #menuIcon {
+  font-size: 10px;
+  padding: 3px;
+}
+
 .navbar-nav {
   margin: 0px;
 }
 
-.row {
-  padding-left: 10px;
-  padding-right: 10px;
+header {
+  text-align: center;
 }
+
+header .container {
+  padding: 100px 0;
+}
+
+header img {
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  width: 256px;
+  height: 256px;
+}
+
+header .intro-text .name {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+header .intro-text .description {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+section {
+  padding: 100px 0;
+}
+
+#projects .project-item {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+
+
 
 a:hover {
   font-weight: bold;
-}
-
-img {
-  width: 256px;
-  height: 256px;
-
-  border-radius: 50%;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #1759A0;
-
-  margin: 20px;
 }
 
 #aboutme .container {
