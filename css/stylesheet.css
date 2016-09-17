@@ -107,6 +107,14 @@ hr {
 
 header {
   text-align: center;
+  background-color: #FFFFFF;
+  background-image: url("/assets/2144.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 header .container {
@@ -141,9 +149,20 @@ section {
   display: block;
   position: relative;
   max-width: 400px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   margin: 0 auto;
-}
 
+
+  background-color: #FFFFFF;
+  background-image: url("/assets/2744.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: 90% 90%;
+  -moz-background-size: 90% 90%;
+  -o-background-size: 90% 90%;
+  background-size: 90% 90%;
+}
 
 
 
