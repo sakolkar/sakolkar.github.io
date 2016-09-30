@@ -170,29 +170,6 @@ a:hover {
   font-weight: bold;
 }
 
-#aboutme .container {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-#aboutme {
-  background-color: #104547;
-  color: white;
-}
-
-#aboutme h1 {
-  font-weight: bold;
-  font-size: 3em;
-}
-
-#aboutme p {
-  font-size: 1em;
-}
-
-#aboutme a {
-  font-size: 1em;
-}
-
 .project-img {
   border-width: 2px;
 
